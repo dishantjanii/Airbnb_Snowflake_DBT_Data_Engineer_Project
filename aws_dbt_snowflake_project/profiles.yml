@@ -1,39 +1,39 @@
 aws_dbt_snowflake_project:
   outputs:
     dev:
-      account: JCANRHC-BJ19374
-      database: AIRBNB
-      password: dbtPassword123
-      role: TRANSFORM
-      schema: dbt_schema
+      account: YOUR_SNOWFLAKE_ACCOUNT       # e.g. abc12345.us-east-1
+      database: YOUR_DATABASE               # e.g. AIRBNB
+      password: YOUR_PASSWORD
+      role: YOUR_ROLE                       # e.g. TRANSFORM
+      schema: YOUR_SCHEMA                   # e.g. dbt_schema
       threads: 1
       type: snowflake
-      user: dbt_snow
-      warehouse: COMPUTE_WH
+      user: YOUR_USERNAME
+      warehouse: YOUR_WAREHOUSE             # e.g. COMPUTE_WH
   target: dev
 my_practice:
   outputs:
     dev:
-      account: JCANRHC-BJ19374
-      database: ECOM
-      password: dbtPassword123
-      role: PERSONAL
-      schema: RAW
+      account: YOUR_SNOWFLAKE_ACCOUNT
+      database: YOUR_DATABASE
+      password: YOUR_PASSWORD
+      role: YOUR_ROLE
+      schema: YOUR_SCHEMA
       threads: 1
       type: snowflake
-      user: dbt_practice
-      warehouse: PRACTICE
+      user: YOUR_USERNAME
+      warehouse: YOUR_WAREHOUSE
   target: dev
 netflix:
   outputs:
     dev:
-      account: JCANRHC-BJ19374
-      database: NETFLIX
-      password: dbtPassword123
-      role: TRANSFORM
-      schema: DEV
+      account: YOUR_SNOWFLAKE_ACCOUNT
+      database: YOUR_DATABASE
+      password: YOUR_PASSWORD
+      role: YOUR_ROLE
+      schema: YOUR_SCHEMA
       threads: 1
       type: snowflake
-      user: dbt
-      warehouse: COMPUTE_WH
+      user: YOUR_USERNAME
+      warehouse: YOUR_WAREHOUSE
   target: dev
