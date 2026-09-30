@@ -71,9 +71,9 @@ The pipeline processes Airbnb **listings**, **bookings**, and **hosts** data fro
 | Component | Technology |
 |-----------|-----------|
 | ☁️ Cloud Data Warehouse | Snowflake |
-| 🔧 Transformation Layer | dbt (Data Build Tool) v1.12.5 |
+| 🔧 Transformation Layer | dbt (Data Build Tool) |
 | 📦 Cloud Storage | AWS S3 |
-| 🐍 Language | Python 3.12+ |
+| 🐍 Language | Python |
 | 🔁 Version Control | Git / GitHub |
 | 📐 SQL Templating | Jinja2 |
 
