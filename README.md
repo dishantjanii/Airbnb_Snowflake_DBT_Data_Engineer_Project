@@ -540,46 +540,6 @@ dbt run --full-refresh
 - Ensure `unique_key` is truly unique in the source
 - Check `dbt_valid_to_current` date is in the future
 
----
-
-## 📚 Resources
-
-- 📖 [dbt Documentation](https://docs.getdbt.com/)
-- ❄️ [Snowflake Documentation](https://docs.snowflake.com/)
-- 💡 [dbt Best Practices](https://docs.getdbt.com/guides/best-practices)
-- 🏗️ [Medallion Architecture Guide](https://docs.databricks.com/lakehouse/medallion.html)
-- 📸 [dbt Snapshots (SCD Type 2)](https://docs.getdbt.com/docs/build/snapshots)
-
----
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/AmazingFeature`
-3. Commit your changes: `git commit -m 'feat: add AmazingFeature'`
-4. Push to the branch: `git push origin feature/AmazingFeature`
-5. Open a Pull Request
-
----
-
-## 📈 Future Enhancements
-
-- [ ] CI/CD pipeline with GitHub Actions (`dbt build` on every PR)
-- [ ] BI integration (Tableau / Power BI / Metabase)
-- [ ] Data quality dashboards with Elementary or re_data
-- [ ] PII data masking for host/guest information
-- [ ] dbt Exposures to document downstream BI dependencies
-- [ ] Extended test coverage with `dbt-expectations` package
-- [ ] Airflow / Prefect orchestration for scheduled runs
-- [ ] Slack/email alerting on test failures
-
----
-
-## 📝 License
-
-This project is part of a **data engineering portfolio** demonstration.
-
----
 
 <div align="center">
 
